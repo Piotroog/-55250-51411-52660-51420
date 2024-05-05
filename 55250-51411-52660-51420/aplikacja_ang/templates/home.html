@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+STRONA GŁÓWNA
+  <a href="{% url 'nauka' %}" class="button">Nauka nowych słówek</a>
+  <a href="{% url 'powtarzanie' %}" class="button">Powtarzanie</a>
+ <form action="{% url 'logout' %}" method="post">
+        {% csrf_token %}
+        <button type="submit">Wyloguj się</button>
+    </form>
+</body>
+</html>
