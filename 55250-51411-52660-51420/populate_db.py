@@ -1,9 +1,6 @@
 from aplikacja_ang.models import Slowko
 
 slownik_polsko_angielski = [
-from aplikacja_ang.models import Slowko
-
-slownik_polsko_angielski = [
     ('rybka', 'fish'),
     ('chomik', 'hamster'),
     ('żółw', 'turtle'),
@@ -46,13 +43,6 @@ slownik_polsko_angielski = [
     ('tenis', 'tennis'),
     ('pływanie', 'swimming'),
     ('bieganie', 'running'),
-]
-
-
-
-obiekty_slowko = [Slowko(polskie=par[0], angielskie=par[1]) for par in slownik_polsko_angielski]
-
-Slowko.objects.bulk_create(obiekty_slowko)
 ]
 
 
