@@ -1,22 +1,14 @@
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <title>Nauka Słówek</title>
 
-    <style>
-        #prevButton, #nextButton, #knowButton {
-            margin: 5px;
-        }
-        #slowkoContainer {
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
+
+
+{% extends "base.html" %}
+
+{% block title %}Strona Główna - Moja Aplikacja{% endblock %}
+
+{% block content %}
     <h2>Nauka nowych słówek</h2>
     <div id="slowkoContainer">
-
+        <!-- Słówka zostaną tutaj wstawione przez JavaScript -->
     </div>
     <button id="prevButton" onclick="prevSlowko()">Poprzednie</button>
     <button id="nextButton" onclick="nextSlowko()">Następne</button>
@@ -89,5 +81,4 @@
         // Inicjalizacja pierwszego słówka
         updateView();
     </script>
-</body>
-</html>
+{% endblock %}
