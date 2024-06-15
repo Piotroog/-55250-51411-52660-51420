@@ -1,5 +1,8 @@
 # Language Learning Application
 
+## Layout 
+Figma project layout:  `https://www.figma.com/design/IwCTsNBYY5zBoNYkyDxnG7/STRONA-DO-%E2%80%A8NAUKI-JĘZYKA?node-id=0-1&t=UefnEItjN9lc1m8n-1`
+
 ## Introduction
 This project presents a language learning application that allows users to learn new words and review known ones by typing their translations after registering.
 
@@ -27,3 +30,4 @@ This application was created to familiarize with the Django framework and basic 
 
 ## Future Plans
 Future updates will include additional functionalities for word repetition and introducing other languages.
+
